@@ -10,30 +10,30 @@ minimal_mistakes_skin: "geek"
 # exclude_from_localization: ["javascript", "images", "css", "README.md"]
 # parallel_localization: true
 ## mulgilang
-languages: ["ko", "en", "jp"]
+# languages: ["ko", "en", "jp"]
 exclude_from_localizations: ["js", "javascript", "images", "css", "assets", "CNAME", "README.md"]
 defaultLang: ko
-languageNames:
-  ko: Korean
-  en: English
-  jp: Japanese
+# languageNames:
+#   ko: Korean
+#   en: English
+#   jp: Japanese
 
 # Site Settings
 date_format: "%Y-%m-%d"
 datetime_format: "%Y-%m-%d %H:%M:%S"
 locale: "en-US" #en-US, ko-KR
-title: Programming - Geek Lab
+title: Tutorial - Geek Lab
 title_separator: "-"
-subtitle: "프로그래밍 관련 기술정리"
-name: "Programming - Geek Lab"
+subtitle: "IT기술 튜토리얼"
+name: "Tutorial - Geek Lab"
 description: >-
-  프로그래밍 정보
+  소프트웨어 개발 따라하기
 url: "https://geek.re.kr"
 baseurl: ""
-repository: "geek-re-kr/geek-programming"
+repository: "geek-re-kr/geek-tutorial"
 # teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "Programming - Geek Lab" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "Tutorial - Geek Lab" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true
 words_per_minute: 200
 comments:
@@ -134,6 +134,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /test-geek
 keep_files:
   - .git
   - .svn
@@ -177,12 +178,11 @@ plugins:
   - jekyll-feed
   - jemoji
   # not in ghpages
-  # - jekyll-admin
-  # - jekyll-gravatar
+  - jekyll-gravatar
   - jekyll-include-cache
-  # - jekyll-asciidoc
-  # - jekyll-archives
-  # - asciidoctor-diagram
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -192,12 +192,11 @@ whitelist:
   - jekyll-feed
   - jemoji
   # not in ghpages
-  # - jekyll-admin
-  # - jekyll-gravatar
+  - jekyll-gravatar
   - jekyll-include-cache
-  # - jekyll-asciidoc
-  # - jekyll-archives
-  # - asciidoctor-diagram
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 # Archives
 #  Type

@@ -8,7 +8,7 @@ require "tmpdir"
 
 # Auto publish
 # Change your GitHub reponame
-GITHUB_REPONAME = "geek-re-kr/geek-programming"
+GITHUB_REPONAME = "geek-re-kr/geek-tutorial"
 
 desc "Generate blog files"
 task :generate do

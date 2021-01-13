@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors                 = ["CEE"]
 
   spec.summary                 = "geek summary"
-  spec.homepage                = "https://github.com/geek_re_kr/geek-devops"
+  spec.homepage                = "https://github.com/geek_re_kr/geek-tutorial"
   spec.license                 = "MIT"
 
   # spec.metadata["plugin_type"] = "theme"
